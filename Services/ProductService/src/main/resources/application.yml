@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ProductService
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: root
+      password: secret
+      database: admin
+      auto-index-creation: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8080
